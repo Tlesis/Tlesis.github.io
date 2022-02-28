@@ -1,0 +1,14 @@
+/* Simple StyleSheet */
+
+.font {
+    font-family: 'EB Garamond', serif;
+}
+
+.inDevTitle {
+    font-size: 25px;
+    text-align: center;
+}
+
+.social {
+    font-size: 20px;
+}

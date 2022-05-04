@@ -9,16 +9,14 @@ body, html {
     overflow: hidden;
 }
 
-body, #container {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background: #1E201A;
-    color: #F1FEFE;
+.bg-img {
+    position: relative;
+    background-image: url(res/bkgrndimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    filter: blur(8px);
 }
 
 .main, .subheading {
@@ -35,25 +33,13 @@ body {
     padding-bottom: 1rem;
 }
 
-.bg-img {
-    background-image: url("res/bkgrndimg.png");
-
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-
-    height: 100%;
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .container {
+    backdrop-filter: blur(20px);
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
     color: #F1FEFE;
     font-weight: bold;
-    border: 3px solid #f1f1f1;
+    border: 3px solid #F1FEFE;
 
     /* TODO: use better way to center */
     position: absolute;

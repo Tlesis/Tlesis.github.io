@@ -7,6 +7,7 @@ body, html {
     height: 100%;
     width: 100%;
     overflow: hidden;
+    background-color: #1E201A;
 }
 
 .bg-img {
@@ -48,7 +49,7 @@ body, html {
     transform: translate(-50%, -50%);
 
     z-index: 2;
-    width: 80%;
+    width: 50%;
     padding: 20px;
     text-align: center;
 }

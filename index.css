@@ -6,13 +6,31 @@
 body, html {
     height: 100%;
     width: 100%;
-    overflow: hidden;
     background-color: #1E201A;
 }
 
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.projects, .contact_me {
+    color: #FAFAFA;
+    background-color: #0D1117;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+
 .bg-img {
-    position: relative;
     background-image: url(res/bkgrndimg.png);
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,4 +70,20 @@ body, html {
     width: 50%;
     padding: 20px;
     text-align: center;
+}
+
+a {
+    color: #489BF7;
+    font-style: italic;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #48c5f7;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:visited {
+    color: #6d1acc;
 }

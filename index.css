@@ -19,7 +19,7 @@ body, html {
 }
 
 .bg-img {
-    background-image: url(res/bkgrndimg.png);
+    background-image: url(res/Home-bkgrndimg.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -53,7 +53,7 @@ body, html {
     transform: translate(-50%, -50%);
 
     z-index: 2;
-    width: 50%;
+    width: clamp(450px, 35%, 700px);
     padding: 20px;
     text-align: center;
 }

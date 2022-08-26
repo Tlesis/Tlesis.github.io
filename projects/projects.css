@@ -1,0 +1,98 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: #1E201A;
+}
+
+code {
+    border-radius: 10%;
+    padding: 3px 5px;
+    background-color: #1F2427;
+}
+
+img {
+    width: 426px; 
+    height: 240px;
+    border: 3px solid #F1FEFE;
+    border-radius: 3%;
+    padding: 0px;
+    margin: 0;
+}
+
+.bg-img {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    filter: blur(8px);
+}
+
+.s-title-box {
+    backdrop-filter: blur(20px);
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #F1FEFE;
+    font-weight: bold;
+    border: 3px solid #F1FEFE;
+
+    font-size: 2.5rem;
+    color: #FAFAFA;
+    padding-top: 2rem;
+
+    /* TODO: use a better way to center*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+
+    z-index: 2;
+    padding: 20px;
+    text-align: center;
+}
+
+.s-title {
+    font-size: 2.5rem;
+    border-bottom: 1px solid #F1FEFE;
+    padding-bottom: 1rem;
+}
+
+.info {
+    color: #FAFAFA;
+    background-color: #0D1117;
+    padding: 50px 80px;
+}
+
+h2 {
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+p, li {
+    font-size: 20px;
+    padding: 20px;
+}
+
+a {
+    color: #489BF7;
+    font-style: italic;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #48c5f7;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:visited {
+    color: #6d1acc;
+}

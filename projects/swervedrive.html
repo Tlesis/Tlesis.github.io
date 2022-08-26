@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="projects.css">
+    <title>1810 Swerve</title>
+</head>
+<body>
+    <div style="background-image: url(../res/Swerve-bkgrndimg.png);" class="bg-img"></div>
+
+    <div class="s-title-box" style="width: clamp(220px, 25%, 400px);">
+        <h1 class="s-title">
+            <a style="color: #FAFAFA; font-style: normal;" href="https://github.com/Tlesis/1810-No-Sds" target="_blank">Swerve Drive</a>
+        </h1>
+    </div>
+    <div class="info">
+        <h2 style="border-bottom: 1px solid #F1FEFE; padding-bottom: 1rem;">What is Swerve?</h2>
+        <p>
+            Swerve Drive is a type of drive train in which each wheel can point 
+            in any direction. Since the wheels can point in any direction, the 
+            robot can move in any direction. Additionally, it can preform unique 
+            maneuvers such as turning its wheels to form a circle and spinning 
+            very quickly.
+        </p>
+        <p style="text-align: center;">
+            <img src="../res/SwerveDrive.gif" alt="1810 Swerve Drive test">
+        </p>
+        <p>
+            Originally we, team 1810, were using a library called <a href="https://github.com/SwerveDriveSpecialties/swerve-lib" target="_blank">SDS</a>.
+            This was because swerve drive is a very large departure from previous 
+            year's drive trains, tank drive. Although SDS is great for getting 
+            swerve set up quickly it isn't the best (in my opinion) for more 
+            complex actions like auto and more low level control over motor 
+            states. Because of the complexity of swerve it has taken me and the 
+            other members of the programming sub-team multiple attempts to create 
+            something functional. Currently there are three branches on the repository:
+        </p>
+
+        <ul>
+            <li><b><a style="color: #FAFAFA; font-style: normal;" href="https://github.com/Tlesis/1810-No-Sds">Main</a></b> - 
+            Main is an old set of code and is also the only branch tested. Unfortunately it failed to work. Really it became more of a learning/testing branch than an actual one.</li>
+            <li><b><a style="color: #FAFAFA; font-style: normal;" href="https://github.com/Tlesis/1810-No-Sds/tree/FusionCorps_Swerve">FusionCorps_Swerve</a></b> - 
+            FusionCorps Swerve is a repo that my friend found and sent to me. It could work but I don't see much of a future with it.</li>
+            <li><b><a style="color: #FAFAFA; font-style: normal;" href="https://github.com/Tlesis/1810-No-Sds/tree/WPI_Swerve">WPI_Swerve</a></b> - 
+            WPI Swerve is me attempting to translate WPI lib's example project to work with our swerve modules. I have the highest hope for this working out of all of the branches.</li>
+        </ul>
+    </div>
+</body>
+</html>
